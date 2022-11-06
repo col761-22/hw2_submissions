@@ -1,0 +1,29 @@
+1. at 95% threshold -> 15 frequent subgraphs discovered.
+2. index file output format "graph_ID feature_vector"
+3. number of graphs in the dataset is 64110.
+
+varying support threshold (and choosing all obtained graphs)
+
+threshold   no. of graphs   m       type     time in index creation  time on sample query
+0.1         8555            8555    all         29m 15s                 94s
+0.2         1773            1773    all         8m 33s                  19s
+0.3         730             730     all         7m 23s                  10s
+0.35        514             514     all         8m 30s                  9s
+0.4         376             739     all         7m 39s                  9s
+0.45        282             282     all         4m 58s                  9s  
+0.5         212             212     all         6m 4s                   15s  
+0.6         108             108     all         7m 7s                   75s
+0.7         61              61      all         4m 51s                  217s
+0.8         18              18      all         4m 36s                  381s
+0.9         5               5       all         4m 94s                  701s
+
+varying m (keeping support threshold fixed at 0.4)
+
+m       threshold       type            time in index creation      time on sample query
+50      0.4             middle sized    9m 21s                      167s
+100     0.4             middle sized    9m 9s                       160s
+150     0.4             middle sized    9m 25s                      61s
+200     0.4             middle sized    9m 56s                      146s
+250     0.4             middle sized    9m 50s                      43s
+300     0.4             middle sized    9m 27s                      9s
+350     0.4             middle sized    10m 15s                     9s                                              

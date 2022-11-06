@@ -1,0 +1,1 @@
+python q3/k_means.py "$1" "$3"

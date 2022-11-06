@@ -1,0 +1,10 @@
+[TEAM]
+Mining567
+
+[MEMBERS]
+Pratik Gujral	2021CSY7585
+Yash Narendra	2021ANZ8639
+Suyash Singh	2018CS50646
+
+[GITHUB]
+https://github.com/pratikgujral/IITD-COL761-DataMining
